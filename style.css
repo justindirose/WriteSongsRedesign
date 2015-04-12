@@ -95,18 +95,18 @@ nav ul li {
 	width: 640px;
 	float: left;
 }
-post{
+article {
 	margin: 50px 0 50px 0;
 	border-bottom: solid 1px #bfbfbf;
 }
-post img{
+article img{
 	border: none;
 	margin: 15px;
 }
-post img{
+article img{
 	border: solid 5px #bfbfbf;
 }
-post a.img-border, #sidebar a.img-border {
+article a.img-border, #sidebar a.img-border {
 	text-decoration: none;
 	border: 0 none;
 }
@@ -217,18 +217,18 @@ blockquote {
 	padding-left: 10px; 
 	font-size: 1em;
 }
-post .quote {
+article .quote {
 	font-size: 1.6em;
 	font-style: oblique;
 }
-post .chat {
+article .chat {
 	width: 575px;
 	margin: 0 0 25px -15px;
 }
-post .chat .label {
+article .chat .label {
 	font-weight: bold;
 }
-post .chat li{
+article .chat li{
 	list-style-type: none;
 	border-bottom: solid 1px #363636;
 	padding: 10px;
