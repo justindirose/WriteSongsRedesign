@@ -144,7 +144,7 @@ h1, h2, h3, h4, h5, h6 {
 	color: #363636;
 	margin: 0 0 18px 0;	
 }
-p, blockquote, ul, ol {
+p, blockquote, ul, ol, time {
 	font-family:  Palatino, "Palatino Linotype", Georgia, Times, "Times New Roman", serif;
 	color: #363636;
 	margin: 0 0 18px 0;
@@ -181,7 +181,7 @@ h2 {
 h3 {
 	font-size: 1.6em;
 }
-p, blockquote, ul, ol {
+p, blockquote, ul, ol, time {
 	font-size: 1.4em;
 }
 a {
