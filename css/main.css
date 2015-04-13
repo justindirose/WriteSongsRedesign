@@ -18,3 +18,30 @@ a {
 img {
   max-width: 100%; 
 }
+
+
+/** Heading **/
+
+header {
+    width: 100%;
+    padding: 2% 0;
+    background-color: #363636;
+    border-bottom: 7px solid #268c3f; 
+}
+#logo {
+    margin-top: 0px;
+    text-align: center;
+    font-size: 2.675em;
+    color: #f5f5f5; 
+}
+h1, h2, h3, blockquote, time {
+    font-family: 'EB Garamond', Verdana, serif;
+}
+h1 {
+    font-size: 2.2em;
+    line-height: 1.1em;
+}
+h2 {
+    font-size: 1.8em;
+    line-height: 1.1em;
+}
