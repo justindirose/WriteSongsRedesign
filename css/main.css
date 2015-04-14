@@ -87,7 +87,7 @@ nav li a:hover {
     margin-top: 50px;   
 }
 #content article {
-    padding: 50px 0 25px 0;
+    padding: 75px 0 50px 0;
     border-bottom: 1px solid #e5e5e5;   
 }
 #content h1 {
@@ -116,4 +116,11 @@ nav li a:hover {
     font-size: 1.2em;
     font-weight: 700;
     line-height: 1.6em;
+}
+#content img, #content iframe {
+    display: block;
+    width: 100%;
+    margin: 25px auto;
+    
+    
 }
