@@ -7,6 +7,7 @@ body {
     font-size: 1.6em;
     line-height: 1.6em;
     -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
     text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
 }
 a {
@@ -91,7 +92,7 @@ nav li a:hover {
 }
 #content h1 {
     margin:0;
-    padding: 0;  
+    padding: 0;
 }
 #content h1 a {
     color: #268c3f;
