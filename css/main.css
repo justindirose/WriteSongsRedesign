@@ -15,7 +15,7 @@ a {
     color: #268c3f;
 }
 a:hover {
-    color: #3BD861 ;
+    color: #3BD861;
 }
 #wrapper {
     max-width: 940px;
@@ -93,12 +93,14 @@ nav li a:hover {
 #content h1 {
     margin:0;
     padding: 0;
-}
-#content h1 a {
+    text-align: center;
     color: #268c3f;
 }
 #content time {
     color: #828282;
+    display: block;
+    width: 100%;
+    text-align: center;
 }
 #content p {
     padding: 5px 0;
@@ -120,7 +122,8 @@ nav li a:hover {
 #content img, #content iframe {
     display: block;
     width: 100%;
-    margin: 25px auto;
-    
-    
+    margin: 25px auto;    
+}
+.img-border {
+    text-decoration: none;  
 }
