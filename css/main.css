@@ -142,10 +142,28 @@ nav li a:hover {
     border: 1px solid #d5d5d5;
     background-color: #e5e5e5;
 }
+#sidebar img {
+    width: 100%;  
+}
 .clearfix:after { 
    content: "."; 
    visibility: hidden; 
    display: block; 
    height: 0; 
    clear: both;
+}
+
+/** Footer **/
+
+footer {
+    width: 100%;
+    margin: 75px 0 0 0;
+    padding: 2% 0;
+    background-color: #363636;
+    border-top: 7px solid #268c3f;
+}
+footer p {
+    color: #f5f5f5;
+    font-size: .6em;
+    text-align: center;
 }
