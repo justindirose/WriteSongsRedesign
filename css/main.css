@@ -142,15 +142,6 @@ nav li a:hover {
     border: 1px solid #d5d5d5;
     background-color: #e5e5e5;
 }
-div.side-text {
-    width: 50%;
-    float: left;
-}
-img.side-image {
-    width: 40%;
-    padding-left: 10%;
-    float: right;
-}
 .clearfix:after { 
    content: "."; 
    visibility: hidden; 
