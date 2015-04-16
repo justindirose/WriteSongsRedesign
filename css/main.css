@@ -130,6 +130,7 @@ nav li a:hover {
 
 #pagination {
     text-align: center;
+    border-bottom: 1px solid #e5e5e5;   
 }
 
 
@@ -138,6 +139,7 @@ nav li a:hover {
 #sidebar {
     width: 75%;
     margin: 0 auto;
+    margin-top: 100px;
     padding: 6.25%;
     border: 1px solid #d5d5d5;
     background-color: #e5e5e5;
