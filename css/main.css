@@ -201,6 +201,7 @@ footer p {
         float: left;
         text-align: left;
     }
+    
     nav {
         width: 45%;
         float: right;
@@ -208,7 +209,9 @@ footer p {
         margin-top: 45px;
         text-align: right;
     }
-
+    nav ul li{
+        font-size: 1.2em;
+    }
     #sidebar .side-text {
         float: right;  
         width: 42%;
