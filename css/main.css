@@ -160,7 +160,7 @@ nav li a:hover {
 /** Sidebar Form **/
 
 input[type=text] {
-    height: 1.6em;
+    height: 1.8em;
     width: 100%;
     margin: 15px 0;
 }
@@ -185,3 +185,40 @@ footer p {
     font-size: .6em;
     text-align: center;
 }
+
+
+@media screen and (min-width: 940px) {
+
+    #logo {
+        width: 35%;
+        margin-left: 15%;
+        float: left;
+        text-align: left;
+    }
+    nav {
+        width: 45%;
+        float: right;
+        margin-right: 5%;
+        margin-top: 45px;
+        text-align: right;
+    }
+
+    #sidebar .side-text {
+        float: right;  
+        width: 42%;
+        margin:0;
+        padding: 0;
+        margin-top: -47px;
+    }
+    #sidebar img {
+        float: left;
+        width: 50%;
+    }
+    input[type=text] {
+        width: 50%;
+        margin: 4px 7% 0 0;
+        float: left;
+    }   
+}
+
+

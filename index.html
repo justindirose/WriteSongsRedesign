@@ -5,9 +5,10 @@
         <title>Write Songs | A Theme by Justin DiRose</title>
         <link rel="stylesheet" href="css/normalize.css" />
         <link rel="stylesheet" href="css/main.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>    
-        <header>		
+        <header class="clearfix">		
             <a href="#"><h1 id="logo">Write Songs</h1></a>
             <nav>
                 <ul id="nav">
@@ -17,7 +18,7 @@
                 </ul>
             </nav>
         </header>
-        <div id="wrapper">
+        <div id="wrapper" >
             <section id="content">
                 <article>
                     <h1><a href="#">HTML Ipsum Presents</a></h1>
@@ -79,15 +80,16 @@
                 </article>
                 <div id="pagination"><p><a href="#">&larr;Older</a> <a href="#">Newer&rarr;</a></p></div>
             </section>
-            <section id="sidebar" class="clearfix">
+            <section id="sidebar">
                 <img class="side-image" src="http://placehold.it/500x500" alt="" />
                 <div class="side-text">
                     <h2>Get the Guide!</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa.</p>
-                    <form action="" method="post">
-                        <input name="email" placeholder="Enter email" type="text"><input id="submit" type="submit" value="Get the Guide">
-                    </form>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida.</p>
                 </div>
+                <div class="clearfix"></div>
+                <form action="" method="post">
+                        <input name="email" placeholder="Enter email" type="text"><input id="submit" type="submit" value="Get the Guide">
+                </form>
                 
             </section>
         </div>
