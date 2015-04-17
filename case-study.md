@@ -13,6 +13,7 @@ Write Songs is a template I designed and developed in 2011 for a Tumblr blog I h
 I decided to take the Write Songs template and redesign and re-develop it nearly from the ground up. 
 
 Upon reviewing the previous design, three major project goals I landed on were to:
+
 1. Make the site responsive
 2. Clean up & modernize the design
 3. Continue to focus on content and typography
