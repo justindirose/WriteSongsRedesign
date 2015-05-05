@@ -128,6 +128,20 @@ nav li a:hover {
     text-decoration: none;  
 }
 
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 resolution */
+    padding-top: 25px;
+    height: 0;
+}
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 #pagination {
     text-align: center;
     border-bottom: 1px solid #e5e5e5;   
