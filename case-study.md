@@ -63,7 +63,7 @@ The results were dramatically more readable text and content appearing brighter 
 
 #### Large, Centered Content
 
-The previous design had a standard two column layout, typical of blogs. However, its content felt constrained and small. To clean up the design and make it feel more modern, I chose to center the content and set the base font size to 1.6em with a line height of 1.6em. 
+The previous design had a standard two column layout, typical of blogs. However, its content felt constrained and small. To clean up the design and make it feel more modern, I chose to center the content and set the base font size to 1.4em with a line height of 1.4em. 
 
 Content is large, easy to read, and, with the font differentiation between header and body copy, more scannable.
 
@@ -78,6 +78,8 @@ The two major elements which required different styling for varying screen sizes
 For the header, I floated the logo and navbar to the left and right, respectively. I made the header font sizes larger for bigger screens to maintain appeal and readability.
 
 The newsletter box was an interesting undertaking. At sizes higher than 700px, the form elements were no longer appropriately spaced; therefore, above 700px, I floated the elements to be on the same line. I also made the image and copy for the newsletter into a two column layout at above 940px, improving the readability.
+
+Additionally, I ran into some trouble with YouTube video embeds being responsive. After some research, I found a [reasonable solution via CSS-Tricks](https://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php) I implemented using a .videoWrapper class in the HTML. The embedded video is now nicely responsive.
 
 ## Conclusion
 
